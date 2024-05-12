@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>クリックでクラスを削除する（特定のクラス属性のみ）</title>
+<style>
+    /* クリック時に追加・削除するクラス */
+    .highlightYellow {
+        background-color: yellow;
+    }
+    .highlightBlue {
+        background-color: blue;
+    }
+    .none {
+        pointer-events: none;
+    }
+
+</style>
+<script src="./lib/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+<!-- クリックしてクラスを削除する対象 -->
+<div id="target1" class="once highlightYellow">
+    <p class="none">クリックしてクラスを削除します（class="once" の要素のみ）</p>
+</div>
+
+<div id="target2" class="once highlightBlue">
+    <p class="none">クリックしてクラスを削除します（class="once" の要素のみ）</p>
+</div>
+
+<script>
+    $(function () {
+
+        $('.once').on('click',function () {
+            $(this).removeClass('once');
+            console.log('class属性を削除しました。')
+                // クリックイベントを解除
+                $(this).css('background-color','orange');
+                $(this).off();
+        });
+
+    
+
+
+        // $('.once').click(function () {
+        //     $(this).removeClass('once');
+        //     console.log('class属性を削除しました。')
+        // });
+        
+    });
+</script>
+
+</body>
+</html>
