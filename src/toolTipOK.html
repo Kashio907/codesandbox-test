@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip Example</title>
+    <style>
+        /* CSSのスタイルをここに記述 */
+        .tooltip-trigger {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltiptext {
+            display: none;
+            position: absolute;
+            z-index: 1;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .tooltip-trigger:hover .tooltiptext {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ツールチップのトリガーとなる要素 -->
+<span class="tooltip-trigger">Hover over me
+    <!-- ツールチップの内容 -->
+    <span class="tooltiptext">This is the tooltip content. 
+        <a href="https://example.com">Click here</a> to learn more.
+    </span>
+</span>
+
+</body>
+</html>
