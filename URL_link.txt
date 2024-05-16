@@ -4,3 +4,16 @@ https://qiita.com/terufumi1122/items/39b2a3659bc585c07f64
 SAStruts getパラメータの取得
 https://liliel.hateblo.jp/entry/2018/09/10/172207
 http://piyopiyocs.blog115.fc2.com/blog-entry-211.html
+
+[Laravel] ログイン後にそのままその先のページにリダイレクトしたい
+https://zenn.dev/suginoki45/articles/70e75f62614c4f
+
+リクエストURIの取得(getRequestURI)
+https://www.javadrive.jp/servlet/request/index6.html
+
+【Java】遷移元のURLを取得する方法
+https://qiita.com/tosuu/items/01d9830f5150820bfb1f
+
+Javaでリダイレクト元のURLを取得する時に使用したソース
+https://qiita.com/mabubu0203/items/67a9c66f407063108a57
+https://stackoverflow.com/questions/1256562/java-httpservletrequest-get-url-in-browsers-url-bar
