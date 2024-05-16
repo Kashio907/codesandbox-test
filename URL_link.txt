@@ -1,2 +1,6 @@
 【Ajax】ローカルファイルを読み込もうとしたらCORSエラーが発生したので解決した
 https://qiita.com/terufumi1122/items/39b2a3659bc585c07f64
+
+SAStruts getパラメータの取得
+https://liliel.hateblo.jp/entry/2018/09/10/172207
+http://piyopiyocs.blog115.fc2.com/blog-entry-211.html
